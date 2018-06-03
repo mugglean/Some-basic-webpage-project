@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>weixinhead</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background:url(images/wx.jpg) repeat-x;
+	}
+	li{
+		list-style: none;
+	}
+	.nav{
+		width: 968px;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.logo{
+		float: left;
+	}
+	.nav img{
+		height: 44px;
+		margin-top: 13px;
+	}
+	.nav ul{
+		float: right;
+		margin-top: 21px;
+	}
+	.nav ul li{
+		float: left;
+	}
+	.nav ul a{
+		height: 33px;
+		background: url(images/to.png) no-repeat;
+		padding-left: 15px;
+		text-decoration: none;
+		color: #fff;
+		display: inline-block;
+		line-height: 33px;
+		font-weight: normal;
+	}
+	.nav ul span{
+		background: url(images/to.png) no-repeat right;
+		padding-right: 15px;
+		display: inline-block;
+		height: 33px;
+	}
+	.nav ul a:hover{
+		background-image: url(images/ao.png);/*覆盖之后只要改变背景图片就可以了*/
+		font-weight: 700;
+	}
+	.nav ul a:hover span{
+		background: url(images/ao.png) no-repeat right;
+	}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+		<ul>
+			<li>
+				<a href="#">
+					<span>
+						首页
+					</span>
+				</a>
+			</li>
+			<li><a href="#"><span>帮助与反馈</span></a></li>
+			<li><a href="#"><span>公众平台</span></a></li>
+			<li><a href="#"><span>开放平台</span></a></li>
+			<li><a href="#"><span>微信支付</span></a></li>
+			<li><a href="#"><span>微信网页版</span></a></li>
+			<li><a href="#"><span>表情开放平台</span></a></li>
+			<li><a href="#"><span>微信广告</span></a></li>
+		</ul>
+	</div>
+</body>
+</html>
