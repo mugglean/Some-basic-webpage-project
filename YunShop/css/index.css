@@ -1,0 +1,271 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+
+li{
+	list-style: none;
+}
+
+/*浮动*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix:after 
+{  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+.clearfix {*zoom: 1;}   /* IE6、7 专有 */
+/*top开始*/
+.top{
+	height: 100px;
+	background-color: #fff;
+	font: 18px "微软雅黑";
+}
+
+.nav{
+	height: 100px;
+	width: 1268px;
+	margin: 0 auto;
+	line-height:100px;
+}
+
+.nav-list li{
+   float: left;
+   margin: 0 19px;
+} 
+
+.nav-list li a{
+	text-decoration:none;
+	color: #333;
+}
+.nav-list li a:hover{
+	text-decoration:none;
+	color: #2288f6;
+}
+/* banner开始 */
+.banner{
+	background: url(../images/banner.png) no-repeat center top;
+	height: 620px;
+	position: relative;
+}
+.banner-scroll ul{
+	width: 72px;
+	left: 50%;
+	margin-left:-36px;
+	position: absolute;
+	bottom: 22px;
+}
+.banner-scroll li{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: left;
+	margin:6px;
+}
+.banner-scroll .current{
+	background-color: rgba(255,255,255,.3);
+}
+/*sevice开始*/
+.service{
+	width: 1050px;
+	margin: 74px auto 0;
+	font:14px "微软雅黑";
+	padding-bottom: 60px;
+}
+.service-hd{
+	border-top: 1px solid #ccc;
+	margin: 0 25px;
+}
+.service-hd h3 {
+/*	width: 167px;
+	height: 46px;
+	margin: -15px auto 0;*/
+	text-align: center;
+	margin-top: -15px;
+}
+.service-hd p{
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	margin-top: 15px;
+}
+
+/*service-bd开始*/
+.service-bd ul{
+	margin-top: 50px;
+}
+.service-bd li{
+	float: left;
+	height: 510px;
+	width: 318px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius:8px;
+}
+.service-mid{
+	margin: 0 43px;
+}
+
+.service-bd li img{
+	margin: 33px 32px 0 26px;
+}
+
+.service-bd li h3{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	margin-top: 51px;
+	text-align: center;
+	margin-bottom: 18px;
+	font-weight: normal;
+	color: #333333;
+}
+.service-bd li p{
+	line-height: 26px;
+	font:normal 14px;
+	width: 235px;
+	color: #666666;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+
+.service-bd li a{
+	width: 148px;
+	height: 36px;
+	background-color: #fff;
+	font:14px;
+	display: block;
+	text-decoration: none;
+	line-height: 38px;
+	text-align: center;
+	margin: 40px auto 0;
+	color: #ff9412;
+	border: 1px solid #ff9412;
+	border-radius: 5px;
+}
+.service-bd li a:hover{
+	color: #fff;
+	background-color: #ff9412;
+}
+/*white-bd开始*/
+.white-bd{
+	background-color: #fff;
+	overflow: hidden;
+}
+.case{
+	margin:0 auto;
+	width: 1050px;
+}
+.case h3,.media h3{
+	text-align: center;
+	width: 1005px;
+	border-top: 1px dashed #ccc;
+	margin-top: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 44px;
+}
+.case h3 img,.media h3 img{
+	margin-top: -20px;
+}
+.case ul{
+	margin-bottom: 60px;
+}
+.case li{
+	height: 210px;
+	width: 324px;
+	float: left;
+	position: relative;
+}
+.case-mid{
+	margin: 0 39px;
+}
+.case span{
+	display: inline-block;
+	height: 46px;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	bottom: 0;
+	width: 324px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 14px;
+}
+.mask
+{
+/*	里面再放一个盒子，给一个定位，并且有黑色透明色*/
+	height: 100%;
+	width: 100%;
+	background:rgba(0,0,0,.3) url(../images/fangdajing.png) no-repeat center center;
+	position: absolute;
+	top:0;
+	display: none;
+}
+.case li:hover .mask{
+	display: block;
+	/*这里其实用js更好*/
+}
+/*合作媒体开始*/
+.media{
+	width: 1050px;
+	margin: 0 auto 200px;
+}
+/*这里理解起来较为困难，先给ul一个比一排li宽的宽度以便撑开盒子，再在外面放一个小一点的wrap盒子把多余的隐藏掉*/
+.media ul{
+	width: 1060px;
+}
+.media li{
+	height: 84px;
+	width: 208px;
+	float: left;
+	border-right: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	text-align: center;
+}
+.media li img{
+	margin-top:5px;
+}
+.wrap{
+	width: 1040px;
+	height: 250px;
+	overflow: hidden;
+}
+
+/*页脚开始*/
+.footer{
+	background-color: #212425;
+	text-align: center;
+	overflow: hidden;/*触发bfc消除margin合并问题*/
+	font-family: "微软雅黑";
+}
+.footer-bd{
+	margin-top: 50px;
+	color: #f0f1f1;
+	font-size: 16px;
+}
+.footer-bd a{
+	font-size: 14px;
+	color: #f0f1f1;
+	text-decoration: none;
+	padding: 0 5px;
+}
+.footer-bd a:hover{
+	color: #2288f6;
+	text-decoration: underline;
+}
+.footer-bd p{
+	font-size: 14px;
+	color: #888888;
+	padding: 14px 0 30px;
+}
