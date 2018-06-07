@@ -12,4 +12,8 @@ Imitation of the WeChat official website navigation bar, it does not use the gen
 A Shop web
 I have writed a easy shop Demo including basic all CSS/HTML skill(without HTML5/CCS3).
 
+一个小米的网页效果
+仿照了一下小米官网的一个盒子效果，使用了定位和after伪元素的方法（伪类本身也是一个盒子）.
+A small Demo with Chinese
+After imitating a box effect of Xiaomi's official website, it uses the method of positioning and after pseudo-elements (the pseudo-class itself is also a box)
 
