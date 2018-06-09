@@ -1,0 +1,219 @@
+/*main start*/
+.main{
+	position: relative;
+	height: 480px;
+
+}
+ .main .ad{
+	position: absolute;
+	height: 480px;
+	background:url(../images/bg.png) no-repeat top center;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.ad a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main .banner{
+	position: relative;
+	z-index: 1000;
+	height: 480px;
+}
+/*左侧banner start*/
+.main .banner-left{
+	height: 465px;
+	width: 190px;
+	background-color: #6e6568;
+	padding-top: 15px;
+}
+.banner-left li{
+	height: 28px;
+	/*高度剩余法*/
+	padding-left: 5px;
+}
+.banner-left ul a{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+}
+.banner-left ul a:hover{
+	color: #fff;
+	background-color: #999395;
+}
+.banner-left li span{
+	font-size: 12px;
+	color: #fff;
+	margin: 0 5px;
+}
+/*中部banner start*/
+.main .banner-mid {
+	height: 480px;
+	width: 790px;
+	margin-left: 10px;
+}
+.banner-mid .mid-hd{
+	position: relative;
+}
+.arr-left,.arr-right{
+	font-family: 'icomoon';
+	position: absolute;
+	height: 60px;
+	width: 30px;
+	color: #fff;
+	background-color:rgb(0,0,0,.4);
+	top: 50%;
+	margin-top: -30px;
+	line-height: 60px;
+	font-size: 25px;
+	text-align: center;
+}
+.arr-left{
+	left: 0;
+}
+.arr-right{
+	right: 0;
+}
+.mid-hd ol{
+	height: 20px;
+	width: 180px;
+	background-color: rgba(255,255,255,.3);
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -90px;
+	border-radius: 7px;
+}
+.mid-hd ol li{
+	float: left;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 4px 5px;
+}
+.mid-hd .current{
+	background-color: #f10215;
+}
+.mid-bt{
+	margin-top: 10px;
+}
+.mid-bt a{
+	width: 390px;
+	height: 130px;
+}
+.mid-bt a img{
+	width: 390px;
+	height: 100%;
+	/*图片自适应盒子高宽*/
+}
+/*右侧banner start*/
+.main .banner-right{
+	width: 190px;
+	height: 480px;
+	font-size: 12px;
+	color: #747474;
+	line-height: 22px;
+}
+.main .banner-right a{
+	color: #747474;
+}
+.banner-right .banner-r-t{
+	height: 95px;
+/*`*/
+	padding: 20px 15px 0;
+}
+.user{
+	position: relative;
+	padding-left: 50px;
+}
+.user a:hover{
+	color: #f10215;
+}
+.user .userphoto{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user .userphoto img{
+	height: 40px;
+	width: auto;
+}
+.banner-r-t .redbutton{
+	margin-top: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+.banner-r-t .redbutton a{
+	display: inline-block;
+	height: 20px;
+	width: 70px;
+	border: 1px solid #f10215;
+	margin-left: 4px;
+	color: #f10215;
+}
+.banner-r-t .redbutton a:hover{
+	background-color: #f10215;
+	color: #fff;
+}
+.banner-right .banner-r-m{
+	height: 151px;
+	padding: 5px 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+.news-t{
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.news-t a{
+	margin: 0 5px;
+}
+.news-t .more{
+	float: right;
+}
+.cuxiao{
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+.news-t .line{
+	position: absolute;
+	height: 2px;
+	width: 28px;
+	background-color: #f10215;
+	bottom: 0;
+	left: 3px;
+}
+.news-b ul{
+	margin-top: 15px;
+}
+.banner-r-b{
+	overflow: hidden;
+	height: 209px;
+}
+.banner-r-b ul{
+	width: 195px;
+}
+.banner-r-b li{
+	float: left;
+	width: 47px;
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.banner-r-b li i{
+	background:url(../images/sprite_fs@1x.png) no-repeat;
+	display: block;
+	height: 24px;
+	width: 24px;
+	margin:15px auto 0;
+}
+.banner-r-b li a:hover{
+	color: #f10215;
+}

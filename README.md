@@ -17,3 +17,7 @@ I have writed a easy shop Demo including basic all CSS/HTML skill(without HTML5/
 A small Demo with Chinese
 After imitating a box effect of Xiaomi's official website, it uses the method of positioning and after pseudo-elements (the pseudo-class itself is also a box)
 
+仿京东首页
+写了京东首页的base部分，使用了基本上所有的CSS/HTML中的知识，还使用了图标字体。
+www.jd.com Webpage
+The base part of the JD.com home page was written, using basically all of the CSS/HTML knowledge and icon fonts.
