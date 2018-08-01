@@ -121,10 +121,12 @@
 			<div class="banner-mid fl">
 				<div class="mid-hd">
 					<!-- 轮播图模块！！！！！ -->
-					<a href="#" class="arr-left"></a>
-					<a href="#" class="arr-right"></a>
-					<ol>
-						<li class="current"></li>
+					<div id="arr">
+						<a href="#" class="arr-left" style="display: none"></a>
+						<a href="#" class="arr-right" style="display: none"></a>
+					</div>
+					<ol id='roundPoint'>
+						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -133,8 +135,8 @@
 						<li></li>
 						<li></li>
 					</ol>
-					<ul>
-						<li><a href="#"><img src="images/banner.jpg" alt=""></a></li>
+					<ul id="box">
+						<li><a href="#"><img src="images/banner1.jpg" alt=""></a></li>
 					</ul>
 				</div>
 				<div class="mid-bt">
@@ -154,21 +156,28 @@
 					</div>
 				</div>
 				<div class="banner-r-m">
-					<div class="news-t">
+					<div class="news-t" id="LunBoTop">
 						<!-- 切换栏模块 -->
-						<a href="javascript:;" class="cuxiao">促销</a>
-						<a href="javascript:;">公告</a>
-						<a href="javascript:;" class="more">更多</a>
+						<a href="javascript:void(0);" class="cuxiao">促销</a>
+						<a href="javascript:void(0);">公告</a>
+						<a href="javascript:void(0);" class="more">更多</a>
 						<div class="line"></div>
 					</div>
-					<div class="news-b">
-						<ul>
-							<li><a href="#">蓄电池专场下单立减100元</a></li>
-							<li><a href="#">蓄电池专场下单立减100元</a></li>
-							<li><a href="#">蓄电池专场下单立减100元</a></li>
-							<li><a href="#">蓄电池专场下单立减100元</a></li>
-						</ul>
+					<div id='LunBoBody'>
+						<div class="news-b" >
+							<ul>
+								<li><a href="#">蓄电池专场下单立减100元</a></li>
+								<li><a href="#">蓄电池专场下单立减100元</a></li>
+								<li><a href="#">蓄电池专场下单立减100元</a></li>
+								<li><a href="#">蓄电池专场下单立减100元</a></li>
+							</ul>
+						</div>
+						<div class="news-b hide" >
+							<ul>
+								<li><a href="#">公告：仿造的jd网站，纯属打闹</a></li>
+							</ul>
 					</div>
+				   </div>
 				</div>
 				<div class="banner-r-b">
 					<!-- 博客里写的方法 -->
@@ -376,4 +385,7 @@
 	</div>
 	<!-- footer end -->
 </body>
+<script src="js/common.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/index.js"></script>
 </html>

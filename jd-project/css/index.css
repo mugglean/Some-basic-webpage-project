@@ -167,6 +167,12 @@
 	padding: 5px 15px 0;
 	border-bottom: 1px solid #ccc;
 }
+.banner-r-m .hide{
+	display: none;
+}
+.banner-r-m .show{
+	display: block;
+}
 .news-t{
 	border-bottom: 1px solid #ccc;
 	position: relative;
