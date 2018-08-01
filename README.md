@@ -19,5 +19,7 @@ After imitating a box effect of Xiaomi's official website, it uses the method of
 
 仿京东首页
 写了京东首页的base部分，使用了基本上所有的CSS/HTML中的知识，还使用了图标字体。
+更新：
+增加了Tab栏和轮播图部分，但是不想找8张图片了，就没有图片滚动的动画了....
 www.jd.com Webpage
 The base part of the JD.com home page was written, using basically all of the CSS/HTML knowledge and icon fonts.
